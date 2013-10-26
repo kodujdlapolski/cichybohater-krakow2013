@@ -11,7 +11,7 @@
 <div class="container-fluid" style="padding-top: 100px;">
     <div class="row-fluid">
         <div class="hero-unit">
-            <h1>Cichy Bohater</h1>
+            <h1><?php echo $this->Html->image('main.jpg', array('class' => 'img-rounded', 'style' => 'margin-right:20px;')); ?>Cichy Bohater</h1>
         </div>
         <div class="navbar navbar-inverse">
             <div class="navbar-inner">
